@@ -1,18 +1,18 @@
-# 🗺️ Prompt: Update the roadmap
+# Prompt: Update the roadmap
 
 > After you finish a task, draft the tidy updates to your roadmap and task board so the whole team sees what is done and what is next.
 
-Your **roadmap** is the team's shared picture of what is planned, in progress, and finished. Your **task board** tracks who is doing what right now. Keeping both current is how everyone stays in sync without a meeting. This prompt drafts those updates for you.
+Your *roadmap* is the team's shared picture of what is planned, in progress, and finished. Your *task board* tracks who is doing what right now. Keeping both current is how everyone stays in sync without a meeting. This prompt drafts those updates for you.
 
-## ⏱️ Before you start
+## Before you start
 
 - Know exactly what you just finished (the task name).
 - Know today's date so the "Done" entry is dated correctly.
 - Have the [roadmap](../templates/ROADMAP.md) and [task board](../templates/task-board.md) open so you can see their current state.
 
-> 💡 **Tip:** Do this the moment a task is merged, while it is fresh. A roadmap that is updated late is a roadmap nobody trusts.
+> Tip: Do this the moment a task is merged, while it is fresh. A roadmap that is updated late is a roadmap nobody trusts.
 
-## 💬 The prompt
+## The prompt
 
 Copy this into your AI builder. Fill in the [BRACKETS].
 
@@ -40,11 +40,11 @@ that change. Keep the wording short and consistent with what is
 already there. Do not invent tasks that are not in what I pasted.
 ```
 
-> 🎯 **Why this matters:** When the roadmap is current, teammates pick their next task themselves without asking. When it drifts, work gets duplicated or dropped.
+When the roadmap is current, teammates pick their next task themselves without asking. When it drifts, work gets duplicated or dropped.
 
-## 🍳 RecipeRoll example
+## RecipeRoll example
 
-Sam finishes Feature B, the "Browse all recipes" list page, and it gets merged. He pastes his task name and today's date into the prompt. The AI drafts:
+Sam finishes Feature B, the "Browse all recipes" list page, and it gets merged. He pastes his task name and today's date into the prompt, and the AI drafts:
 
 - **Roadmap, Done:** `Browse all recipes (list page) — done 2026-06-24, owner: Sam`
 - **Roadmap, Next:** "Search by ingredient (Priya) is the natural next piece, since browsing now exists to search within."
@@ -52,23 +52,21 @@ Sam finishes Feature B, the "Browse all recipes" list page, and it gets merged. 
 
 Sam pastes those exact lines into the [roadmap](../templates/ROADMAP.md) and [task board](../templates/task-board.md).
 
-## ⚠️ Watch out
+## Watch out
 
-> - **Update both files.** A done task on the roadmap but still "in progress" on the task board confuses everyone.
-> - Always include the date on the Done entry. "Done" with no date hides whether something is fresh or stale.
-> - Do not let the AI invent or reorder tasks you did not paste in. It should only touch what you give it.
+> Watch out: Update both files. A done task on the roadmap that still reads "in progress" on the task board confuses everyone. Always include the date on the Done entry, since "Done" with no date hides whether something is fresh or stale. And do not let the AI invent or reorder tasks you did not paste in; it should only touch what you give it.
 
-## ✅ You're done when
+## You're done when
 
 - [ ] The finished task is in the roadmap's Done section, with today's date.
 - [ ] The roadmap clearly shows what is Next.
 - [ ] The task board status for this task is updated, with the owner noted.
 
-## ➡️ Next
+## Next
 
 Use this prompt as part of [Step 7: Update the roadmap and log issues](../guides/step-7-update-roadmap-and-log-issues.md).
 
-## 📎 Related files
+## Related files
 
 - Guide: [Step 7: Update the roadmap and log issues](../guides/step-7-update-roadmap-and-log-issues.md)
 - Template: [Roadmap](../templates/ROADMAP.md)

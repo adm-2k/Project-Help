@@ -1,18 +1,18 @@
-# 📝 Prompt 01 — Draft the PRD
+# Prompt 01 — Draft the PRD
 
 > Turn your rough notes about what you want to build into a clear, one-to-two-page product plan.
 
-**When to use:** At the very start, when you have ideas but no written plan yet. This is Step 1.
+When to use: At the very start, when you have ideas but no written plan yet. This is Step 1.
 
-## ✅ Before you start
+## Before you start
 
-- Gather your rough notes — even messy bullet points are fine.
+- Gather your rough notes. Messy bullet points are fine.
 - Open the [PRD template](../templates/PRD-template.md) so you can see the sections the AI should fill.
 - Know roughly who your app is for and the one main thing it should do.
 
-> 💡 **What's a PRD?** It stands for *Product Requirements Document* — a short, plain plan of what you're building and why. See the [glossary](../GLOSSARY.md).
+A *PRD* is a Product Requirements Document: a short, plain plan of what you're building and why. See the [glossary](../GLOSSARY.md).
 
-## 💬 The prompt
+## The prompt
 
 Copy this, replace the `[BRACKETED PARTS]`, and paste it into your AI builder.
 
@@ -40,21 +40,21 @@ Rules:
 After the PRD, list the 3 things you most need me to clarify.
 ```
 
-## 💡 Tips
+## Tips
 
-- If your notes are thin, that's okay — the AI will turn the gaps into "Open questions" you can answer next.
+- If your notes are thin, that's fine. The AI turns the gaps into "Open questions" you can answer next.
 - If v1 feels big, ask: "Cut v1 in half. What's the smallest version that's still useful?"
 - Save the result as your team's draft PRD. You'll sharpen it in [Step 2](../guides/step-2-review-the-prd.md).
 
-## 🎯 What good output looks like
+## What good output looks like
 
-- Has all six sections, in order.
-- v1 scope is short — a handful of must-haves, not a wish list.
+- All six sections, in order.
+- v1 scope is short: a handful of must-haves, not a wish list.
 - "Out of scope" clearly parks the nice-to-haves for later.
 - Open questions name real unknowns instead of hiding them.
 
-> ⚠️ **Watch out:** If the AI invented features or details you never mentioned, it guessed. Delete those or move them to Open questions.
+> Watch out: If the AI invented features or details you never mentioned, it guessed. Delete those or move them to Open questions.
 
-## ➡️ Next
+## Next
 
 Use this in [Step 1: Write the PRD](../guides/step-1-write-the-prd.md), then sharpen it in [Step 2: Review the PRD](../guides/step-2-review-the-prd.md).

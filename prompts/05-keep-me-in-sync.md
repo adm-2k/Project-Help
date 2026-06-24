@@ -1,21 +1,21 @@
-# 🔄 Prompt: Keep me in sync
+# Prompt: Keep me in sync
 
-> Paste this prompt once a day to pull your teammates' finished work into your branch and find out, early, if anything might clash.
+> Paste this prompt once a day to pull your teammates' finished work into your branch and find out early if anything might clash.
 
-Use this during [Step 4: Claim and build](../guides/step-4-claim-and-build.md). While you build your feature, your teammates are finishing theirs and adding them to the shared "main" copy of the project. Pulling their work into your [branch](../GLOSSARY.md) regularly keeps you up to date and turns big surprises into tiny, easy fixes.
+Use this during [Step 4: Claim and build](../guides/step-4-claim-and-build.md). While you build your feature, your teammates are finishing theirs and adding them to the shared `main` copy of the project. Pulling their work into your *branch* (your private copy, defined in the [glossary](../GLOSSARY.md)) regularly keeps you up to date and turns big surprises into small, easy fixes.
 
-If the words "main", "branch", or "merge" feel fuzzy, read the friendly explainer first: [How git works for non-coders](../HOW-GIT-WORKS-FOR-NON-CODERS.md).
+If the words `main`, branch, or *merge* feel fuzzy, read the friendly explainer first: [How git works for non-coders](../HOW-GIT-WORKS-FOR-NON-CODERS.md).
 
-## ⏱️ Before you start
+## Before you start
 
-- ✅ Know your branch name (for example `feature/add-recipe-form`). If you're not sure, your AI builder can tell you — just ask "what branch am I on?"
-- ✅ Have saved your current work. The AI can save it for you if you ask.
+- Know your branch name (for example `feature/add-recipe-form`). If you're not sure, your AI builder can tell you. Just ask "what branch am I on?"
+- Save your current work. The AI can do this for you if you ask.
 
-> 💡 **Tip:** Do this **daily**, ideally first thing. Syncing a little every day is painless. Syncing after two weeks of everyone's changes is where the scary stories come from — and even those are fixable.
+> Tip: Sync daily, ideally first thing. A little every day is painless. Syncing after two weeks of everyone's changes is where the scary stories come from, and even those are fixable.
 
-## 💬 The prompt to paste
+## The prompt to paste
 
-You usually don't need to change anything — just paste it as-is.
+You usually don't need to change anything. Paste it as-is.
 
 ```
 I'm working on my own branch in a shared project. My teammates have been
@@ -36,26 +36,26 @@ catch up safely. Please help me, step by step:
 Explain each step before you do it, and pause if anything looks risky.
 ```
 
-## 🧑‍🍳 RecipeRoll example
+## RecipeRoll example
 
 Priya owns Feature C, "Search by ingredient", on branch `feature/search-by-ingredient`. Each morning she pastes this prompt. One day her AI builder reports back:
 
 > *"Since you branched, Sam merged the 'Browse all recipes' list page into main. He added a new file for the recipe list and a small shared helper that reads saved recipes. Your search feature reads the same saved recipes, so there's a small overlap in one shared file — a low conflict risk. I pulled main into your branch and it merged cleanly with no conflicts. You're safe to keep building. Heads up: now that Sam's list exists, you can reuse his helper instead of writing your own."*
 
-Because Priya synced daily, she found out about Sam's work the day after it landed — not two weeks later — and she even spotted a chance to reuse his code.
+Because Priya synced daily, she heard about Sam's work the day after it landed, not two weeks later, and she even spotted a chance to reuse his code.
 
-> ⚠️ **Watch out**
-> - Don't skip days "to avoid the hassle." The longer you wait, the more changes pile up, and the bigger any clash becomes.
+> Watch out:
+> - Don't skip days to avoid the hassle. The longer you wait, the more changes pile up, and the bigger any clash becomes.
 > - Always let the AI save your in-progress work before pulling. The prompt above asks for this, but double-check it happened.
-> - A "conflict risk" is not a problem yet — it's an early heads-up. If a real conflict does appear, it's normal and fixable: use [Prompt 06: Resolve a merge conflict](06-resolve-a-merge-conflict.md).
+> - A "conflict risk" is not a problem yet; it's an early heads-up. If a real conflict does appear, it's normal and fixable: use [Prompt 06: Resolve a merge conflict](06-resolve-a-merge-conflict.md).
 
-## ✅ You're done when
+## You're done when
 
 - [ ] You know what branch you're on and your work was saved first.
 - [ ] The latest main has been pulled into your branch.
 - [ ] You understand, in plain English, what changed in main.
-- [ ] You know whether any changes overlap your files — and what to do if so.
+- [ ] You know whether any changes overlap your files, and what to do if so.
 
-## ➡️ Next
+## Next
 
-Back to the guide: [Step 4: Claim and build](../guides/step-4-claim-and-build.md). If a real merge conflict shows up, don't panic — go to [Prompt 06: Resolve a merge conflict](06-resolve-a-merge-conflict.md).
+Back to the guide: [Step 4: Claim and build](../guides/step-4-claim-and-build.md). If a real merge conflict shows up, don't panic. Go to [Prompt 06: Resolve a merge conflict](06-resolve-a-merge-conflict.md).

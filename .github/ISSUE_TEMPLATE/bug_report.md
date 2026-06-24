@@ -5,21 +5,21 @@ title: "[Bug] "
 labels: bug
 ---
 
-> 💡 Tip: not sure how to fill this in? Use the prompt at ../prompts/09-log-an-issue.md and paste its answer here.
+> Tip: not sure how to fill this in? Use the prompt at prompts/09-log-an-issue.md and paste its answer here.
 
-## 🐛 What happened?
+## What happened?
 
 <!-- Describe what went wrong, in plain English. -->
 
 
 
-## 🎯 What did you expect to happen?
+## What did you expect to happen?
 
 <!-- What should it have done instead? -->
 
 
 
-## 🔁 Steps to reproduce
+## Steps to reproduce
 
 <!-- The exact steps someone else can follow to see the same problem. -->
 
@@ -27,19 +27,19 @@ labels: bug
 2.
 3.
 
-## 📍 Where did it happen?
+## Where did it happen?
 
 <!-- Which screen or feature? For example: the "Search by ingredient" page. -->
 
 
 
-## 📸 Screenshots (optional)
+## Screenshots (optional)
 
-<!-- Drop an image or short recording if it helps show the problem. -->
+<!-- Add an image or short recording if it helps show the problem. -->
 
 
 
-## ⚠️ How serious is it?
+## How serious is it?
 
 <!-- Pick one: -->
 

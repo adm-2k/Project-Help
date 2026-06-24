@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: New here? Start with the playbook
+    url: https://github.com/adm-2k/Project-Help
+    about: Read the README and guides before opening an issue.

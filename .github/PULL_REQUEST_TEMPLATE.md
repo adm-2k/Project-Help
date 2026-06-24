@@ -1,18 +1,18 @@
-<!-- Need help filling this in? Use the prompt at ../prompts/07-write-my-pr.md and paste its answer here. -->
+<!-- Need help filling this in? Use the prompt at prompts/07-write-my-pr.md and paste its answer here. -->
 
-## 🍳 What this does
+## What this does
 
 <!-- In a sentence or two, plain English: what does this change add or fix? -->
 
 
 
-## 🎯 Related task / issue
+## Related issue
 
-<!-- Link the task card or issue this finishes. For example: Closes #12 -->
+<!-- Link the issue this finishes. Writing "Closes #12" will auto-close that issue when this pull request merges. -->
 
 
 
-## ✅ How to test it
+## How to test it
 
 <!-- Numbered steps a reviewer can follow to see it working. Be specific. -->
 
@@ -20,21 +20,21 @@
 2.
 3.
 
-## 📸 Screenshots or recording
+## Screenshots or recording
 
-<!-- If this changes something you can see, drop a screenshot or a short recording here. Skip if there's nothing visual. -->
+<!-- If this changes something you can see, add a screenshot or a short recording here. Skip it if there's nothing visual. -->
 
 
 
-## ☑️ Checklist
+## Checklist
 
-- [ ] 💬 I tested it myself and it works
-- [ ] ⬇️ I pulled the latest `main` before opening this
-- [ ] 🎯 This pull request is small and focused on one thing
-- [ ] 📋 I updated the roadmap or issue log if this changed them
+- [ ] I tested it myself and it works
+- [ ] I pulled the latest `main` before opening this
+- [ ] This pull request is small and focused on one thing
+- [ ] I updated the roadmap or issue log if this changed them
 
-## 🗣️ Notes for reviewers
+## Notes for reviewers
 
-<!-- Anything that would help your teammate review faster: a tricky bit, a question, or a part you're unsure about. -->
+<!-- Anything that helps your teammate review faster: a tricky bit, a question, or a part you're unsure about. -->
 
 
