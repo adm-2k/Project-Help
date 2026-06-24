@@ -47,7 +47,7 @@ What to watch: v1 allows duplicate recipe names on purpose — that's expected, 
 
 She links it to her task (`Closes #3`) and requests Sam as her reviewer. It is now waiting for a friendly second pair of eyes.
 
-> Going further on GitHub: Two optional conveniences are worth knowing. First, writing `Closes #12` in the description links the PR to its issue, and GitHub closes that issue automatically when the PR merges. Second, if you want early feedback before your work is ready, open a `Draft` pull request instead of a regular one; it signals "look, but don't merge yet."
+> Going further on GitHub: Two optional conveniences are worth knowing. First, writing `Closes #12` in the description links the PR to its issue, and GitHub closes that issue automatically when the PR merges. Second, if you want early feedback before your work is ready, open a `Draft` pull request instead of a regular one; it signals "look, but don't merge yet." Third, if your team has connected a host (see [Step 8](step-8-share-and-go-live.md)), each pull request gets its own live preview link your reviewer can open and try before merging.
 
 ## Watch out for
 

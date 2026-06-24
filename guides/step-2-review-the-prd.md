@@ -73,7 +73,7 @@ They also catch a vague phrase, "search should be fast", and replace it with a r
 
 ## Next
 
-Your plan is solid and locked. Now slice it into bite-sized tasks one person can build: [Step 3: Break into tasks](step-3-break-into-tasks.md).
+Your plan is solid and locked. Before you split the work, turn it into a single source of truth your AI tools can all follow: [Turn your PRD into a shared source of truth](prepare-ai-ready-deliverables.md). Then slice it into bite-sized tasks: [Step 3: Break into tasks](step-3-break-into-tasks.md).
 
 ## Prompts and templates
 

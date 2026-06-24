@@ -40,9 +40,9 @@ These six habits are the difference between a confused AI and a helpful one.
 
 > Watch out: Never paste in passwords, private keys, or other secrets. Treat anything you send as if someone else could read it.
 
-## The 10 prompts
+## The 11 prompts
 
-Use them roughly in order; they follow the seven build steps.
+Use them roughly in order; they follow the build steps.
 
 | # | Prompt | What it does |
 | --- | --- | --- |
@@ -56,5 +56,6 @@ Use them roughly in order; they follow the seven build steps.
 | 08 | [Review a teammate's PR](08-review-a-teammates-pr.md) | Give kind, useful feedback on someone's work. |
 | 09 | [Log an issue](09-log-an-issue.md) | Capture a bug or idea so it isn't forgotten. |
 | 10 | [Update the roadmap](10-update-the-roadmap.md) | Keep your plan current as features ship. |
+| 11 | [Build AI context from the PRD](11-build-ai-context-from-prd.md) | Turn your PRD into a shared context file and feature specs your AI tools follow. |
 
 > Tip: A prompt's output is a strong first draft, not the final word. Your judgment, and your team's, decides what stays.

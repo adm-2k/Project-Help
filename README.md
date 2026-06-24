@@ -6,6 +6,8 @@ This repo is your team's instruction manual. It shows a small group of people, w
 
 You don't need to read it all in one sitting. The first time through, you move through seven steps in order. After that, you loop the last few steps for every new feature.
 
+> New or overwhelmed? Open **[GUIDE-ME.md](GUIDE-ME.md)** and paste it into ChatGPT or Claude. It turns the AI into a guide that reads this playbook and tells you exactly what to do next.
+
 ---
 
 ## The big picture: one loop, seven steps
@@ -24,7 +26,7 @@ You don't need to read it all in one sitting. The first time through, you move t
         └──────────────── pick the next task, loop ────────────────┘
 ```
 
-Steps ① ② ③ happen once per project. Steps ④ ⑤ ⑥ ⑦ repeat for every feature.
+Steps ① ② ③ happen once per project. Steps ④ ⑤ ⑥ ⑦ repeat for every feature. Before all of this, [Step 0: Getting comfortable](guides/step-0-getting-comfortable.md) helps a nervous team settle in. When you are ready to show real users, an optional [Step 8: Share it and go live](guides/step-8-share-and-go-live.md) puts it online.
 
 ---
 
@@ -32,13 +34,19 @@ Steps ① ② ③ happen once per project. Steps ④ ⑤ ⑥ ⑦ repeat for ever
 
 | If your team is… | Go here |
 |---|---|
+| New to all this and a little nervous | **[Step 0: Getting comfortable](guides/step-0-getting-comfortable.md)** |
+| Wanting an AI to just tell you the next step | **[GUIDE-ME.md](GUIDE-ME.md)** |
 | Just starting, and you haven't agreed what you're building | **[Step 1: Write the PRD](guides/step-1-write-the-prd.md)** |
 | Holding a draft plan and want to make sure it's solid | **[Step 2: Review the PRD](guides/step-2-review-the-prd.md)** |
+| Done planning and want every AI tool to build the same thing | **[Prepare AI-ready deliverables](guides/prepare-ai-ready-deliverables.md)** |
 | Done planning, and you need to split the work | **[Step 3: Break into tasks](guides/step-3-break-into-tasks.md)** |
 | Handed a task you need to build | **[Step 4: Claim & build on a branch](guides/step-4-claim-and-build.md)** |
 | Finished a piece you want in the project | **[Step 5: Open a pull request](guides/step-5-open-a-pull-request.md)** |
 | Asked by a teammate to review their work | **[Step 6: Review & merge](guides/step-6-review-and-merge.md)** |
 | Just done with something | **[Step 7: Update roadmap & log issues](guides/step-7-update-roadmap-and-log-issues.md)** |
+| Ready to put it online for real people | **[Step 8: Share it and go live](guides/step-8-share-and-go-live.md)** |
+| Not sure which tools to use | **[Choosing your tools](tools/README.md)** |
+| Stuck, or something just broke | **[Getting unstuck](guides/getting-unstuck.md)** |
 | Nervous about git, branches, or merge conflicts | **[How Git Works for Non-Coders](HOW-GIT-WORKS-FOR-NON-CODERS.md)** |
 | Stuck on a word you don't understand | **[Glossary](GLOSSARY.md)** |
 | Curious to see one full lap before you start | **[Example walkthrough](examples/EXAMPLE-walkthrough.md)** |
@@ -51,12 +59,14 @@ Steps ① ② ③ happen once per project. Steps ④ ⑤ ⑥ ⑦ repeat for ever
 
 | Folder | What it holds | When you use it |
 |---|---|---|
-| **[`guides/`](guides/)** | The seven step-by-step guides, the heart of the playbook | Follow in order |
-| **[`templates/`](templates/)** | Fill-in-the-blank documents (PRD, roadmap, task board, issue log, decision log) | Copy and fill as you go |
-| **[`prompts/`](prompts/)** | Ten copy-paste AI prompts, proven for each step | Whenever you talk to the AI |
+| **[`guides/`](guides/)** | The step-by-step guides, the heart of the playbook (Step 0 through Step 8, plus getting unstuck) | Follow in order |
+| **[`templates/`](templates/)** | Fill-in-the-blank documents (PRD, roadmap, task board, issue log, decision log, AI context, feature spec) | Copy and fill as you go |
+| **[`prompts/`](prompts/)** | Eleven copy-paste AI prompts, proven for each step | Whenever you talk to the AI |
+| **[`tools/`](tools/)** | Plain comparisons of the cheapest, easiest tools, with a recommended starter stack | When choosing what to build with |
 | **[`checklists/`](checklists/)** | Quick "before you do X" checklists | Pin these; glance before acting |
 | **[`.github/`](.github/)** | Templates GitHub shows automatically when you open a PR or file an issue | Automatic |
 | **[`examples/`](examples/)** | A complete worked example, one team going from idea to merged feature | Read once, early |
+| **[`for-facilitators/`](for-facilitators/)** | A guide for the mentor running a cohort | If you are leading a team |
 
 ---
 
@@ -88,10 +98,12 @@ Throughout this playbook, one imaginary team of four, **Maya, Sam, Priya, and De
 
 ## Quick start for a brand-new team
 
-1. **Everyone** reads this page and skims the **[Glossary](GLOSSARY.md)**.
+1. **Everyone** reads this page, then **[Step 0: Getting comfortable](guides/step-0-getting-comfortable.md)**, and skims the **[Glossary](GLOSSARY.md)**.
 2. Together, work through the **[Team Kickoff Checklist](checklists/team-kickoff.md)**.
 3. Read the **[Example walkthrough](examples/EXAMPLE-walkthrough.md)** to see one full lap.
 4. Start **[Step 1: Write the PRD](guides/step-1-write-the-prd.md)**, and keep going.
+
+Feeling lost at any point? Open **[GUIDE-ME.md](GUIDE-ME.md)** and let an AI point you to the next step.
 
 ---
 

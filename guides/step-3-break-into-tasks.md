@@ -60,6 +60,8 @@ Here is the idea worth holding onto: a branch is your own safe copy of the proje
 
 7. **Fill in the task board:** [../templates/task-board.md](../templates/task-board.md). One row per task, with these columns: Feature, Task, Owner, Branch, Files it touches, and Status.
 
+> Tip: If you set up a [shared source of truth](prepare-ai-ready-deliverables.md) in the previous step, give each task its own short [feature spec](../templates/feature-spec.md) too. When a teammate's AI reads both the shared context file and the one-page spec for their task, it builds exactly the right thing and stays in its lane.
+
 ## Example: RecipeRoll
 
 The RecipeRoll team has four people and four features. They mapped each feature to one owner and one branch, and listed the files each task touches. Notice that the files barely overlap. That is the whole point.

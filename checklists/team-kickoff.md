@@ -10,14 +10,15 @@ A calm start prevents most of the confusion that hits teams later. An hour now t
 
 ## Get everyone on the same page
 
-- [ ] Everyone has read the [README](../README.md) and skimmed the [GLOSSARY](../GLOSSARY.md), so the words ahead won't feel scary
+- [ ] Everyone has read the [README](../README.md) and [Step 0: Getting comfortable](../guides/step-0-getting-comfortable.md), and skimmed the [GLOSSARY](../GLOSSARY.md), so the words ahead won't feel scary
+- [ ] Everyone knows about [GUIDE-ME](../GUIDE-ME.md): paste it into an AI chatbot any time you are unsure what to do next
 - [ ] You agreed, in a sentence or two, what problem you're solving and who it's for
 - [ ] You read the [example walkthrough](../examples/EXAMPLE-walkthrough.md) together, so everyone has seen the whole journey once
 
 ## Set up your tools
 
 - [ ] You created (or got access to) the team's GitHub repository, and every person can push to it
-- [ ] You agreed on the AI builder tool everyone will use (Claude Code, Cursor, and the like). Pick one, so help is easy to share
+- [ ] You agreed on the AI builder tool everyone will use (Claude Code, Cursor, and the like). Pick one, so help is easy to share. Not sure which? Compare options in [Choosing your tools](../tools/README.md)
 - [ ] Everyone installed a visual git tool such as GitHub Desktop, or knows how to use the git buttons built into their AI builder
 
 > Watch out: Don't skip the "everyone can push" check. The fastest way to lose an afternoon is discovering halfway through that one teammate has no access to the repo.
@@ -25,7 +26,10 @@ A calm start prevents most of the confusion that hits teams later. An hour now t
 ## Agree how you'll work together
 
 - [ ] You picked a coordinator for the week. This can rotate weekly; it's a light role, not a boss
+- [ ] You paired up as buddies (a first port of call when someone is stuck), pairing anyone nervous with someone steadier
+- [ ] You wrote a short team charter: how you'll communicate, how you'll ask for help, and how you'll decide when you disagree
 - [ ] You agreed on a communication channel (chat, and so on) and a weekly sync time
+- [ ] You scheduled your first win with your mentor: a short session where the team puts a tiny page online, so everyone feels what shipping is like early (see [Step 0](../guides/step-0-getting-comfortable.md))
 - [ ] You agreed on the branch-naming convention, `feature/short-description` (lowercase words separated by dashes), for example `feature/add-recipe-form`
 - [ ] You agreed on the two golden rules and said them out loud:
   - `main` always works (never break the shared, working version)
@@ -35,12 +39,15 @@ A calm start prevents most of the confusion that hits teams later. An hour now t
 
 - [ ] You wrote your PRD together, following [Step 1: Write the PRD](../guides/step-1-write-the-prd.md)
 - [ ] You reviewed that PRD as a team, following [Step 2: Review the PRD](../guides/step-2-review-the-prd.md)
+- [ ] You turned the PRD into a shared source of truth your AI tools will follow, following [Prepare AI-ready deliverables](../guides/prepare-ai-ready-deliverables.md)
 - [ ] You set up your working docs by copying these templates into your repo:
   - your finished PRD (from Step 1)
   - [task board](../templates/task-board.md)
   - [ROADMAP](../templates/ROADMAP.md)
   - [ISSUE-LOG](../templates/ISSUE-LOG.md)
   - [DECISIONS](../templates/DECISIONS.md)
+  - the [AI context file](../templates/AI-CONTEXT.md), saved under the name your tool reads (such as `CLAUDE.md`)
+  - a [feature spec](../templates/feature-spec.md) for each task
 
 ## RecipeRoll example
 
