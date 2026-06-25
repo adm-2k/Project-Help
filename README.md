@@ -45,6 +45,7 @@ Steps ① ② ③ happen once per project. Steps ④ ⑤ ⑥ ⑦ repeat for ever
 | Asked by a teammate to review their work | **[Step 6: Review & merge](guides/step-6-review-and-merge.md)** |
 | Just done with something | **[Step 7: Update roadmap & log issues](guides/step-7-update-roadmap-and-log-issues.md)** |
 | Ready to put it online for real people | **[Step 8: Share it and go live](guides/step-8-share-and-go-live.md)** |
+| Ready to show your work to employers | **[Turn it into a portfolio piece](guides/build-your-portfolio-piece.md)** |
 | Not sure which tools to use | **[Choosing your tools](tools/README.md)** |
 | Stuck, or something just broke | **[Getting unstuck](guides/getting-unstuck.md)** |
 | Nervous about git, branches, or merge conflicts | **[How Git Works for Non-Coders](HOW-GIT-WORKS-FOR-NON-CODERS.md)** |

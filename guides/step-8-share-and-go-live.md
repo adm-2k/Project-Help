@@ -50,7 +50,7 @@ Maya sends the link to three friends who like to cook. By that evening, there ar
 
 ## Next
 
-Go log what comes next. Loop back to [Step 7: Update the roadmap and log issues](step-7-update-roadmap-and-log-issues.md) to capture what your testers found and what you'll build next, or just close the laptop and enjoy the fact that you shipped something real.
+Go log what comes next. Loop back to [Step 7: Update the roadmap and log issues](step-7-update-roadmap-and-log-issues.md) to capture what your testers found and what you'll build next. And now that you have something real and live, make it work for your career: [Turn your project into a portfolio piece](build-your-portfolio-piece.md).
 
 ## Prompts and templates
 

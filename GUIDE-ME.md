@@ -45,6 +45,7 @@ Here is the whole process, in order, so the AI has the full picture from this pa
 - **Step 6 - Review and merge** (check a teammate's work and fold it in, keeping the shared version healthy): `guides/step-6-review-and-merge.md` ; prompts `prompts/08-review-a-teammates-pr.md` and `prompts/06-resolve-a-merge-conflict.md`
 - **Step 7 - Update roadmap and log issues**, then loop back to Step 3 for the next feature: `guides/step-7-update-roadmap-and-log-issues.md` ; templates `templates/ROADMAP.md`, `templates/ISSUE-LOG.md`, and `templates/DECISIONS.md` ; prompts `prompts/09-log-an-issue.md` and `prompts/10-update-the-roadmap.md`
 - **Step 8 (optional) - Share it and go live** (put your app online for real people to use): `guides/step-8-share-and-go-live.md` ; reference `tools/hosting-and-deployment.md`
+- **Capstone - Turn your project into a portfolio piece** (show your work to employers): `guides/build-your-portfolio-piece.md` ; template `templates/case-study-README.md`
 
 Support you can reach for at any time, no matter which step you are on:
 
@@ -72,6 +73,7 @@ Find the row that sounds like you. Open the file in the last column.
 | I was asked to review a teammate's work | Review it and help merge it cleanly | `guides/step-6-review-and-merge.md`, `prompts/08-review-a-teammates-pr.md`, `prompts/06-resolve-a-merge-conflict.md` |
 | I just finished something | Update the roadmap, log any issues, then pick the next task | `guides/step-7-update-roadmap-and-log-issues.md`, `templates/ROADMAP.md`, `templates/ISSUE-LOG.md`, `prompts/10-update-the-roadmap.md` |
 | We want to put it online | Share it and go live | `guides/step-8-share-and-go-live.md`, `tools/hosting-and-deployment.md` |
+| We want to show this to employers | Turn it into a portfolio case study | `guides/build-your-portfolio-piece.md`, `templates/case-study-README.md` |
 | We're picking which tools to use | Read the tool guide and choose | `tools/README.md` |
 | I'm stuck, or a word makes no sense | Get unstuck, or look the word up | `guides/getting-unstuck.md`, `GLOSSARY.md` |
 
@@ -79,8 +81,8 @@ Find the row that sounds like you. Open the file in the last column.
 
 Every folder in this repo, and what it holds. Because this page sits at the repo root, the links below are relative.
 
-- [`guides/`](guides/) - the step-by-step guides, the heart of the playbook. Follow them in order: [step 0](guides/step-0-getting-comfortable.md), [step 1](guides/step-1-write-the-prd.md), [step 2](guides/step-2-review-the-prd.md), [prepare deliverables](guides/prepare-ai-ready-deliverables.md), [step 3](guides/step-3-break-into-tasks.md), [step 4](guides/step-4-claim-and-build.md), [step 5](guides/step-5-open-a-pull-request.md), [step 6](guides/step-6-review-and-merge.md), [step 7](guides/step-7-update-roadmap-and-log-issues.md), [step 8](guides/step-8-share-and-go-live.md), and [getting unstuck](guides/getting-unstuck.md).
-- [`templates/`](templates/) - fill-in-the-blank documents you copy and complete as you go: [PRD](templates/PRD-template.md), [PRD review checklist](templates/prd-review-checklist.md), [AI context](templates/AI-CONTEXT.md), [feature spec](templates/feature-spec.md), [task board](templates/task-board.md), [roadmap](templates/ROADMAP.md), [issue log](templates/ISSUE-LOG.md), and [decisions log](templates/DECISIONS.md).
+- [`guides/`](guides/) - the step-by-step guides, the heart of the playbook. Follow them in order: [step 0](guides/step-0-getting-comfortable.md), [step 1](guides/step-1-write-the-prd.md), [step 2](guides/step-2-review-the-prd.md), [prepare deliverables](guides/prepare-ai-ready-deliverables.md), [step 3](guides/step-3-break-into-tasks.md), [step 4](guides/step-4-claim-and-build.md), [step 5](guides/step-5-open-a-pull-request.md), [step 6](guides/step-6-review-and-merge.md), [step 7](guides/step-7-update-roadmap-and-log-issues.md), [step 8](guides/step-8-share-and-go-live.md), [getting unstuck](guides/getting-unstuck.md), and [turn it into a portfolio piece](guides/build-your-portfolio-piece.md).
+- [`templates/`](templates/) - fill-in-the-blank documents you copy and complete as you go: [PRD](templates/PRD-template.md), [PRD review checklist](templates/prd-review-checklist.md), [AI context](templates/AI-CONTEXT.md), [feature spec](templates/feature-spec.md), [task board](templates/task-board.md), [roadmap](templates/ROADMAP.md), [issue log](templates/ISSUE-LOG.md), [decisions log](templates/DECISIONS.md), and [case study README](templates/case-study-README.md).
 - [`prompts/`](prompts/) - copy-paste prompts for talking to your AI at each step, numbered [01](prompts/01-draft-prd.md) through [11](prompts/11-build-ai-context-from-prd.md).
 - [`checklists/`](checklists/) - quick "before you do X" lists: [team kickoff](checklists/team-kickoff.md), [before you start a task](checklists/before-you-start-a-task.md), [before you open a PR](checklists/before-you-open-a-pr.md), and [before you merge](checklists/before-you-merge.md).
 - [`tools/`](tools/) - help choosing your tools: [start here](tools/README.md), [AI builders](tools/ai-builders.md), [version control clients](tools/version-control-clients.md), [coordination and PM](tools/coordination-and-pm.md), [data and backends](tools/data-and-backends.md), and [hosting and deployment](tools/hosting-and-deployment.md).
