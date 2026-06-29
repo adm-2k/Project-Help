@@ -45,6 +45,7 @@ You don't have to hold this whole playbook in your head. A few places will orien
 - The [README](../README.md) is a useful map. It shows the whole loop, tells you where you are, and points you to the right step for whatever your team is doing right now.
 - The [Glossary](../GLOSSARY.md) is a plain-English dictionary. Any word that looks like jargon, `commit`, `branch`, `repo`, `deploy`, is defined there in one or two friendly sentences.
 - [GUIDE-ME](../GUIDE-ME.md) is a shortcut for when you would rather just ask. Paste it into ChatGPT or Claude, and the AI reads the playbook and tells you what to do next, in plain English.
+- [How AI Building Works for Non-Coders](../HOW-AI-BUILDING-WORKS-FOR-NON-CODERS.md) explains, in plain words, what the AI is good at and where it slips up, so its quirks surprise you less.
 
 ## Your first win
 
@@ -54,4 +55,4 @@ There are a variety of tools that you can use, but you can actually prompt your 
 
 ## Next
 
-When you're ready, start with [Step 1: Write the PRD](step-1-write-the-prd.md). You should be working on a collaborative Google Doc that you are shaping out your user research, building out user journeys, and ensuring you have a shared vision of the product and its features. If your team is setting up for the first time, run the [Team Kickoff Checklist](../checklists/team-kickoff.md) together first; it covers everything to get ready, and a mentor can help you through it.
+Not set up yet? Work through [Getting set up](getting-set-up.md) first; it walks you through accounts and tools in about half an hour. When you're ready, start with [Step 1: Write the PRD](step-1-write-the-prd.md). You should be working on a collaborative Google Doc that you are shaping out your user research, building out user journeys, and ensuring you have a shared vision of the product and its features. If your team is setting up for the first time, run the [Team Kickoff Checklist](../checklists/team-kickoff.md) together first; it covers everything to get ready, and a mentor can help you through it.

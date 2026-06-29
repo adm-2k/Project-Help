@@ -35,6 +35,8 @@ Steps ① ② ③ happen once per project. Steps ④ ⑤ ⑥ ⑦ repeat for ever
 | If your team is… | Go here |
 |---|---|
 | New to all this and a little nervous | **[Step 0: Getting comfortable](guides/step-0-getting-comfortable.md)** |
+| Not sure what AI can and can't do | **[How AI Building Works for Non-Coders](HOW-AI-BUILDING-WORKS-FOR-NON-CODERS.md)** |
+| Haven't set up your accounts and tools yet | **[Getting set up](guides/getting-set-up.md)** |
 | Wanting an AI to just tell you the next step | **[GUIDE-ME.md](GUIDE-ME.md)** |
 | Just starting, and you haven't agreed what you're building | **[Step 1: Write the PRD](guides/step-1-write-the-prd.md)** |
 | Holding a draft plan and want to make sure it's solid | **[Step 2: Review the PRD](guides/step-2-review-the-prd.md)** |
@@ -48,6 +50,8 @@ Steps ① ② ③ happen once per project. Steps ④ ⑤ ⑥ ⑦ repeat for ever
 | Ready to show your work to employers | **[Turn it into a portfolio piece](guides/build-your-portfolio-piece.md)** |
 | Not sure which tools to use | **[Choosing your tools](tools/README.md)** |
 | Stuck, or something just broke | **[Getting unstuck](guides/getting-unstuck.md)** |
+| Not getting good results from the AI | **[Talking to your AI](guides/talking-to-your-ai.md)** |
+| Worried about cost or credits | **[Managing cost and credits](tools/managing-cost-and-credits.md)** |
 | Nervous about git, branches, or merge conflicts | **[How Git Works for Non-Coders](HOW-GIT-WORKS-FOR-NON-CODERS.md)** |
 | Stuck on a word you don't understand | **[Glossary](GLOSSARY.md)** |
 | Curious to see one full lap before you start | **[Example walkthrough](examples/EXAMPLE-walkthrough.md)** |
@@ -77,6 +81,8 @@ Steps ① ② ③ happen once per project. Steps ④ ⑤ ⑥ ⑦ repeat for ever
 - **An AI builder tool.** This playbook is tool-agnostic, and works with Claude Code, Cursor, and similar tools. The examples name those, but the ideas apply to any AI coding assistant.
 - **A visual way to use git** if commands make you nervous. We recommend [GitHub Desktop](https://desktop.github.com/), or you can use your AI tool's built-in git. You will not have to memorize commands. See **[How Git Works for Non-Coders](HOW-GIT-WORKS-FOR-NON-CODERS.md)**.
 
+> New to AI itself, or not set up yet? Read **[How AI Building Works for Non-Coders](HOW-AI-BUILDING-WORKS-FOR-NON-CODERS.md)** for what these tools can and can't do, then follow **[Getting set up](guides/getting-set-up.md)** to create your accounts and tools step by step.
+
 ---
 
 ## The five rules that make team-building-with-AI work
@@ -99,7 +105,7 @@ Throughout this playbook, one imaginary team of four, **Maya, Sam, Priya, and De
 
 ## Quick start for a brand-new team
 
-1. **Everyone** reads this page, then **[Step 0: Getting comfortable](guides/step-0-getting-comfortable.md)**, and skims the **[Glossary](GLOSSARY.md)**.
+1. **Everyone** reads this page, then **[Step 0: Getting comfortable](guides/step-0-getting-comfortable.md)**, skims the **[Glossary](GLOSSARY.md)**, and works through **[Getting set up](guides/getting-set-up.md)** so accounts and tools are ready.
 2. Together, work through the **[Team Kickoff Checklist](checklists/team-kickoff.md)**.
 3. Read the **[Example walkthrough](examples/EXAMPLE-walkthrough.md)** to see one full lap.
 4. Start **[Step 1: Write the PRD](guides/step-1-write-the-prd.md)**, and keep going.

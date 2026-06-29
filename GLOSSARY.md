@@ -31,6 +31,12 @@ All the files that make up your software: the words, the logic, the bits and pie
 **Commit**
 A saved snapshot of your changes with a short note describing what you did. Like hitting save on a document, but you also leave a sticky note saying "added the recipe form." Commits let you and your team see the history of what changed and roll back if needed. Many small commits beat one giant one.
 
+**Context window**
+How much your AI builder can hold in mind at once. It is the AI's short-term memory, and it is limited, so in a long session the AI gradually forgets earlier details and can start to contradict itself. The fix is to keep tasks small, re-give it your plan, and start a fresh session when it drifts. See [HOW-AI-BUILDING-WORKS-FOR-NON-CODERS.md](HOW-AI-BUILDING-WORKS-FOR-NON-CODERS.md).
+
+**Credits**
+The units some AI builders bill in, instead of or alongside a flat monthly fee. You spend credits as the AI works, so a longer or more complex request costs more. Most tools show a meter; check it as you go. See [tools/managing-cost-and-credits.md](tools/managing-cost-and-credits.md).
+
 **Database**
 An organized place where an app keeps information that needs to last, like a giant, searchable spreadsheet the app reads from and writes to. Saved recipes, user accounts, and favorites all live in one. Beginner-friendly options are compared in [tools/data-and-backends.md](tools/data-and-backends.md).
 
@@ -58,6 +64,9 @@ A website where your project lives online so your whole team can share it, see e
 **GitHub Desktop**
 A free app with simple buttons for the most common git actions, so you don't have to type any commands. Like a remote control for git: click `Commit`, click `Push`, done. It is the gentlest way to do git. Whenever this playbook shows a git command, you can usually click a button in GitHub Desktop instead.
 
+**Hallucination**
+When a generative AI confidently makes something up, an invented feature, library, setting, or fact, and states it as if it were true. For an AI, sounding right and being right are different things, so judge it by what the app actually does, not by what it claims. See [HOW-AI-BUILDING-WORKS-FOR-NON-CODERS.md](HOW-AI-BUILDING-WORKS-FOR-NON-CODERS.md).
+
 **Issue**
 A written note on GitHub describing a bug to fix or an idea to build, so nothing gets forgotten. Like a ticket on a help desk or a card on a to-do board. Our running example logs this one: "Search is case-sensitive, so typing `Tomato` misses `tomato`." Issues keep your team's bugs and ideas in one trackable place instead of scattered across chats.
 
@@ -77,6 +86,9 @@ What happens when two people changed the very same lines and git can't tell whic
 
 **Milestone**
 A named group of work that marks a meaningful point, like "v1 launch." Think of it as a finish line you are all running toward together. Milestones help your team agree on what "done enough to ship" looks like.
+
+**Model**
+The specific AI "brain" your builder uses to think. Tools often let you choose: bigger models are more capable but cost more, while smaller ones are cheaper and faster and are fine for simple work. Picking a cheaper model for easy tasks is one way to keep costs down. See [tools/managing-cost-and-credits.md](tools/managing-cost-and-credits.md).
 
 **MVP (Minimum Viable Product)**
 The smallest version of your app that is genuinely useful: the core, with the nice-to-haves saved for later. Like opening a café with great coffee and a few pastries before adding a full lunch menu. In our running example, the RecipeRoll MVP is add a recipe, browse all recipes, and search by ingredient. Accounts, photos, and ratings are saved for later. A tight MVP is how a small team actually finishes and ships.
@@ -127,6 +139,9 @@ A plain text window where you type commands to your computer instead of clicking
 
 **Test**
 A small automatic check that confirms a piece of your app does what it should. Like a taste-test before serving: if something is off, the test catches it before your users do. Tests give you confidence that new changes didn't quietly break something that used to work.
+
+**Token**
+The small chunks of text an AI reads and writes, and the usual way usage is measured and billed. Roughly, more words in and out means more tokens, which means a little more cost. You never count them yourself; just know that long, repetitive sessions burn more. See [tools/managing-cost-and-credits.md](tools/managing-cost-and-credits.md).
 
 ---
 

@@ -56,6 +56,27 @@ Log it as an issue. Add a row to the [ISSUE-LOG](../templates/ISSUE-LOG.md), or 
 
 > Watch out: Never paste secrets into a chatbot. Passwords, API keys, private personal data, none of it should go into your AI builder or any chat tool, even when you're asking for help. Strip those out of an error before you paste it. When in doubt, leave it out.
 
+## When the AI goes in circles
+
+Sometimes the AI gets into a loop. You say "that's still broken," it changes something, and the same problem comes back, or a new one appears. You can feel it digging a deeper hole. The moment to notice is when two or three rounds of "fix it" have left you no better off.
+
+When that happens, stop repeating "still broken." It rarely helps, because a long, muddled conversation is exactly when the AI's short memory works against it (see [How AI Building Works for Non-Coders](../HOW-AI-BUILDING-WORKS-FOR-NON-CODERS.md)). Reset instead:
+
+1. **Start a fresh session.** Open a new chat so the AI is not dragging along all the confused back-and-forth.
+2. **Re-give it the context.** Point it at your `PRD.md` and the one thing you are trying to do right now.
+3. **Ask for one small step.** Narrow the request right down: a single, clearly described change.
+4. **Simplify the goal.** If a feature keeps fighting you, ask for a simpler version first, then build it up.
+
+> Tip: A fresh, well-aimed ask beats ten rounds of "no, still wrong." When in doubt, start over clean. See [Talking to your AI](talking-to-your-ai.md) for how to phrase it.
+
+## Your safety net: go back to what worked
+
+Here is the most reassuring fact in the whole playbook: you can almost always return to the last version that worked. Nothing you try is truly risky, because your project keeps save points.
+
+Every time you or your AI builder make a [commit](../GLOSSARY.md), you create a save point you can come back to. If a change made things worse, you do not have to fix it forward. You can restore the last good save point and start again from there. You do not need to memorize commands: in GitHub Desktop you can undo recent changes with a click, or you can simply ask your AI builder, "put this back to the last committed version." For the calm, full picture, see [How Git Works for Non-Coders](../HOW-GIT-WORKS-FOR-NON-CODERS.md).
+
+The habit that makes this work: commit often while things are working, so you always have a recent, safe place to fall back to. Knowing you can undo is what makes experimenting feel safe instead of scary.
+
 ## You've got this
 
 Being stuck feels worse than it is. Almost every problem you'll hit has been hit before, has a name, and has a fix, and you have an AI tutor, a buddy, a team, and a mentor all within reach. Work the steps, stay calm, and you'll be moving again sooner than you think.

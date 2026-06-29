@@ -35,6 +35,7 @@ That is all. The AI takes it from there.
 
 Here is the whole process, in order, so the AI has the full picture from this page alone. The team builds in one loop: a few steps happen once at the start, and the last few repeat for every new feature.
 
+- **Before Step 0 - Getting set up** (create your accounts and tools and confirm they work): `guides/getting-set-up.md`
 - **Step 0 - Getting comfortable** (orientation; you belong here, no experience required): `guides/step-0-getting-comfortable.md`
 - **Step 1 - Write the PRD** (agree as a team what you are building; the PRD is the plan everyone follows): `guides/step-1-write-the-prd.md` ; template `templates/PRD-template.md` ; prompt `prompts/01-draft-prd.md`
 - **Step 2 - Review the PRD** (poke holes in the plan before you build, so problems are cheap to fix): `guides/step-2-review-the-prd.md` ; checklist `templates/prd-review-checklist.md` ; prompt `prompts/02-stress-test-prd.md`
@@ -51,8 +52,11 @@ Support you can reach for at any time, no matter which step you are on:
 
 - `GLOSSARY.md` - plain-English meaning of every technical word
 - `HOW-GIT-WORKS-FOR-NON-CODERS.md` - the branch-and-merge idea explained with pictures, no commands
+- `HOW-AI-BUILDING-WORKS-FOR-NON-CODERS.md` - what generative AI can and can't do, why it sometimes makes things up, and how to work with it
 - `guides/getting-unstuck.md` - what to do when something breaks or you feel lost
+- `guides/talking-to-your-ai.md` - how to prompt well and course-correct when the AI goes sideways
 - `tools/README.md` - help choosing which tools to use
+- `tools/managing-cost-and-credits.md` - how AI-builder billing works and how to keep spend low
 - `examples/EXAMPLE-walkthrough.md` - one team going from idea to merged feature, start to finish
 - `checklists/` - quick "before you do X" lists, including team kickoff
 - `for-facilitators/facilitation-guide.md` - notes for the mentor or facilitator running a team
@@ -63,6 +67,8 @@ Find the row that sounds like you. Open the file in the last column.
 
 | If this sounds like you | Do this next | Open |
 |---|---|---|
+| We haven't set up our accounts and tools yet | Get set up first | `guides/getting-set-up.md`, `tools/README.md` |
+| We're new to AI and unsure what it can do or trust | Learn how it works | `HOW-AI-BUILDING-WORKS-FOR-NON-CODERS.md` |
 | We haven't agreed what we're building | Write the plan together | `guides/step-1-write-the-prd.md`, `templates/PRD-template.md`, `prompts/01-draft-prd.md` |
 | We have a rough plan | Poke holes in it before building | `guides/step-2-review-the-prd.md`, `templates/prd-review-checklist.md`, `prompts/02-stress-test-prd.md` |
 | Our plan looks done | Turn it into one shared brief for the AI tools | `guides/prepare-ai-ready-deliverables.md`, `templates/AI-CONTEXT.md`, `prompts/11-build-ai-context-from-prd.md` |
@@ -76,16 +82,18 @@ Find the row that sounds like you. Open the file in the last column.
 | We want to show this to employers | Turn it into a portfolio case study | `guides/build-your-portfolio-piece.md`, `templates/case-study-README.md` |
 | We're picking which tools to use | Read the tool guide and choose | `tools/README.md` |
 | I'm stuck, or a word makes no sense | Get unstuck, or look the word up | `guides/getting-unstuck.md`, `GLOSSARY.md` |
+| The AI isn't giving me good results | Improve how you ask | `guides/talking-to-your-ai.md` |
+| We're worried about cost or credits | Learn to manage spend | `tools/managing-cost-and-credits.md` |
 
 ## The full file map
 
 Every folder in this repo, and what it holds. Because this page sits at the repo root, the links below are relative.
 
-- [`guides/`](guides/) - the step-by-step guides, the heart of the playbook. Follow them in order: [step 0](guides/step-0-getting-comfortable.md), [step 1](guides/step-1-write-the-prd.md), [step 2](guides/step-2-review-the-prd.md), [prepare deliverables](guides/prepare-ai-ready-deliverables.md), [step 3](guides/step-3-break-into-tasks.md), [step 4](guides/step-4-claim-and-build.md), [step 5](guides/step-5-open-a-pull-request.md), [step 6](guides/step-6-review-and-merge.md), [step 7](guides/step-7-update-roadmap-and-log-issues.md), [step 8](guides/step-8-share-and-go-live.md), [getting unstuck](guides/getting-unstuck.md), and [turn it into a portfolio piece](guides/build-your-portfolio-piece.md).
+- [`guides/`](guides/) - the step-by-step guides, the heart of the playbook. Start with [getting set up](guides/getting-set-up.md), then follow them in order: [step 0](guides/step-0-getting-comfortable.md), [step 1](guides/step-1-write-the-prd.md), [step 2](guides/step-2-review-the-prd.md), [prepare deliverables](guides/prepare-ai-ready-deliverables.md), [step 3](guides/step-3-break-into-tasks.md), [step 4](guides/step-4-claim-and-build.md), [step 5](guides/step-5-open-a-pull-request.md), [step 6](guides/step-6-review-and-merge.md), [step 7](guides/step-7-update-roadmap-and-log-issues.md), [step 8](guides/step-8-share-and-go-live.md), [getting unstuck](guides/getting-unstuck.md), [talking to your AI](guides/talking-to-your-ai.md), and [turn it into a portfolio piece](guides/build-your-portfolio-piece.md).
 - [`templates/`](templates/) - fill-in-the-blank documents you copy and complete as you go: [PRD](templates/PRD-template.md), [PRD review checklist](templates/prd-review-checklist.md), [AI context](templates/AI-CONTEXT.md), [feature spec](templates/feature-spec.md), [task board](templates/task-board.md), [roadmap](templates/ROADMAP.md), [issue log](templates/ISSUE-LOG.md), [decisions log](templates/DECISIONS.md), and [case study README](templates/case-study-README.md).
 - [`prompts/`](prompts/) - copy-paste prompts for talking to your AI at each step, numbered [01](prompts/01-draft-prd.md) through [11](prompts/11-build-ai-context-from-prd.md).
 - [`checklists/`](checklists/) - quick "before you do X" lists: [team kickoff](checklists/team-kickoff.md), [before you start a task](checklists/before-you-start-a-task.md), [before you open a PR](checklists/before-you-open-a-pr.md), and [before you merge](checklists/before-you-merge.md).
-- [`tools/`](tools/) - help choosing your tools: [start here](tools/README.md), [AI builders](tools/ai-builders.md), [version control clients](tools/version-control-clients.md), [coordination and PM](tools/coordination-and-pm.md), [data and backends](tools/data-and-backends.md), and [hosting and deployment](tools/hosting-and-deployment.md).
+- [`tools/`](tools/) - help choosing your tools: [start here](tools/README.md), [AI builders](tools/ai-builders.md), [version control clients](tools/version-control-clients.md), [coordination and PM](tools/coordination-and-pm.md), [data and backends](tools/data-and-backends.md), [hosting and deployment](tools/hosting-and-deployment.md), and [managing cost and credits](tools/managing-cost-and-credits.md).
 - [`examples/`](examples/) - a complete worked example, one team going from idea to merged feature: [the walkthrough](examples/EXAMPLE-walkthrough.md). Read it once, early.
 - [`for-facilitators/`](for-facilitators/) - notes for the mentor running a team: [the facilitation guide](for-facilitators/facilitation-guide.md).
-- Support files at the root: [`GLOSSARY.md`](GLOSSARY.md) for word meanings, and [`HOW-GIT-WORKS-FOR-NON-CODERS.md`](HOW-GIT-WORKS-FOR-NON-CODERS.md) for the branch-and-merge idea without any commands.
+- Support files at the root: [`GLOSSARY.md`](GLOSSARY.md) for word meanings, [`HOW-GIT-WORKS-FOR-NON-CODERS.md`](HOW-GIT-WORKS-FOR-NON-CODERS.md) for the branch-and-merge idea without any commands, and [`HOW-AI-BUILDING-WORKS-FOR-NON-CODERS.md`](HOW-AI-BUILDING-WORKS-FOR-NON-CODERS.md) for how generative AI actually behaves.

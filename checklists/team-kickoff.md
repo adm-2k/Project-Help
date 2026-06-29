@@ -11,12 +11,14 @@ A calm start prevents most of the confusion that hits teams later. An hour now t
 ## Get everyone on the same page
 
 - [ ] Everyone has read the [README](../README.md) and [Step 0: Getting comfortable](../guides/step-0-getting-comfortable.md), and skimmed the [GLOSSARY](../GLOSSARY.md), so the words ahead won't feel scary
+- [ ] Everyone has skimmed [How AI Building Works for Non-Coders](../HOW-AI-BUILDING-WORKS-FOR-NON-CODERS.md), so the AI's quirks (making things up, forgetting) won't catch you off guard
 - [ ] Everyone knows about [GUIDE-ME](../GUIDE-ME.md): paste it into an AI chatbot any time you are unsure what to do next
 - [ ] You agreed, in a sentence or two, what problem you're solving and who it's for
 - [ ] You read the [example walkthrough](../examples/EXAMPLE-walkthrough.md) together, so everyone has seen the whole journey once
 
 ## Set up your tools
 
+- [ ] Each person worked through [Getting set up](../guides/getting-set-up.md): accounts created, tools installed, and confirmed working
 - [ ] You created (or got access to) the team's GitHub repository, and every person can push to it
 - [ ] You agreed on the AI builder tool everyone will use (Claude Code, Cursor, and the like). Pick one, so help is easy to share. Not sure which? Compare options in [Choosing your tools](../tools/README.md)
 - [ ] Everyone installed a visual git tool such as GitHub Desktop, or knows how to use the git buttons built into their AI builder
